@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tokenizer-service"
+version = "0.1.0"
+description = ""
+authors = ["kailashs <kailashs@ec.ai>"]
+readme = "README.md"
+packages = [{include = "tokenizer_service"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^3.0.3"
+transformers = "^4.41.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
