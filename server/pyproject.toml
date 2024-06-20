@@ -2,7 +2,7 @@
 name = "tokenizer-service"
 version = "0.1.0"
 description = ""
-authors = ["kailashs <kailashs@ec.ai>"]
+authors = ["Kailash Karthik <kailashkarthik9@gmail.com>"]
 readme = "README.md"
 packages = [{include = "tokenizer_service"}]
 
@@ -10,6 +10,8 @@ packages = [{include = "tokenizer_service"}]
 python = "^3.9"
 flask = "^3.0.3"
 transformers = "^4.41.2"
+black = "^24.4.2"
+mypy = "^1.10.0"
 
 
 [build-system]
